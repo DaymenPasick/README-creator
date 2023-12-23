@@ -94,15 +94,17 @@ and include your desired content in there.
     ![alt text](assets/images/screenshot.png)
     
 
-## Credits
+## Contribute
 
-
+-[Project Page](${data.contribute}) 
 
 ## License
 
 
 
 ## Tests
+
+
     `
 
 
