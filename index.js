@@ -20,13 +20,6 @@ prompt([
         default: 'READMEdescription'
     },
     {
-        //for table of contents
-        type: 'input',
-        message: 'testing input',
-        name: 'contents',
-        default: 'READMEcontents'
-    },
-    {
         //for installation
         type: 'input',
         message: 'testing input',
@@ -69,9 +62,11 @@ prompt([
     console.log(data);
     
     const readME = `
-# Title
+# ${data.title}
 
-## Description
+
+
+## ${data.description}
 
 
 ## Table of Contents 
@@ -84,6 +79,7 @@ prompt([
 
 ## Installation
 
+-${data.installation}
 
 
 ## Usage

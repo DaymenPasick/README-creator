@@ -1,7 +1,9 @@
 
-# Title
+# Pokemon
 
-## Description
+
+
+## pokemon masters only
 
 
 ## Table of Contents 
@@ -14,6 +16,7 @@
 
 ## Installation
 
+-throw the ball
 
 
 ## Usage
