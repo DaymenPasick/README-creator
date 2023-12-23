@@ -5,8 +5,10 @@ const inquirer = require('inquirer')
 const prompt = inquirer.createPromptModule()
 // TODO: Create an array of questions for user input
 const questions = [];
+//Need title, descriptions, table of contents, installation, usage, contributing, tests, and questions prompts
 prompt([
     {
+        
         type: 'input',
         message: 'testing input',
         name: 'nameTest',
