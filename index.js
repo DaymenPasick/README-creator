@@ -117,7 +117,7 @@ To add a screenshot, create an 'assets/images' folder in your repository and upl
 
 
 
-
+    fs.writeFileSync('./output/newREADME.md', readME);
  });
 
 // TODO: Create a function to write README file
