@@ -70,7 +70,11 @@ prompt([
  .then((data) =>{
     console.log(data);
 
- })
+    if (!fs.existsSync('./output')) {
+        fs.mkdirSync('./output');
+    }
+
+ });
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
