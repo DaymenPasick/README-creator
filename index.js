@@ -1,10 +1,8 @@
-// TODO: Include packages needed for this application
+
 const fs = require('fs');
 const inquirer = require('inquirer')
 
 const prompt = inquirer.createPromptModule()
-// TODO: Create an array of questions for user input
-const questions = [];
 
 prompt([
     {
@@ -120,8 +118,6 @@ To add a screenshot, create an 'assets/images' folder in your repository and upl
     fs.writeFileSync('./output/newREADME.md', readME);
  });
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {}
