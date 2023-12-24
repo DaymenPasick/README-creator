@@ -15,28 +15,28 @@ prompt([
     {
         //for description
         type: 'input',
-        message: 'testing input',
+        message: 'Please enter a description for your project',
         name: 'description',
         default: 'READMEdescription'
     },
     {
         //for installation
         type: 'input',
-        message: 'testing input',
+        message: 'Please list any steps required to install your project',
         name: 'installation',
         default: 'READMEinstallation'
     },
     {
         //for usage
         type: 'input',
-        message: 'testing input',
+        message: 'Please note any instructions for using your product/app',
         name: 'usage',
         default: 'READMEusage'
     },
     {
         //for contributing
         type: 'input',
-        message: 'testing input',
+        message: 'Please provide a direct link to you project, so others people can contribute',
         name: 'contribute',
         default: 'READMEcontribute'
     },
@@ -96,6 +96,7 @@ and include your desired content in there.
 
 ## Contribute
 
+-If you want to contribute to my project, click the link below!
 -[Project Page](${data.contribute}) 
 
 ## License

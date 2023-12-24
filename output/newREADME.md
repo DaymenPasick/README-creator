@@ -1,9 +1,9 @@
 
-# Pokemon
+# READMEtitle
 
 
 
-## pokemon masters only
+## READMEdescription
 
 
 ## Table of Contents 
@@ -16,26 +16,30 @@
 
 ## Installation
 
--throw the ball
+-READMEinstallation
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+-If you have any additional images or videos to include, create an 'assets/images OR assets/videos' folder in your directory,
+and include your desired content in there.
 
-    md
+-After this step, insert the relative file path and alt text using the syntax below:
+
+    
     ![alt text](assets/images/screenshot.png)
     
 
-## Credits
+## Contribute
 
-
+-[Project Page](READMEcontribute) 
 
 ## License
 
 
 
 ## Tests
+
+
     
