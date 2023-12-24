@@ -101,13 +101,18 @@ prompt([
 
 -${data.usage}
 
--If you have any additional images or videos to include, create an 'assets/images OR assets/videos' folder in your directory,
+**Instructions for additional img/video content. If this doesn't apply, please delete this portion of your Usage section **
+
+-If you have any additional images or videos to include, create an 'assets' folder in your directory,
 and include your desired content in there.
 
--After doing creating your directory, insert the relative file path to your desired asset, and an alt text using the syntax below:
+-After creating your directory, insert the relative file path to your desired asset, and an alt text using the syntax below:
 
     
     ![alt text](assets/images/screenshot.png)
+
+
+
     
 
 ## Contribute

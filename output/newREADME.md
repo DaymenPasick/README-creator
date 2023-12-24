@@ -1,11 +1,11 @@
 
-# Pokemons
+# N/A
 
 
 
 ## Description
 
--Pokemans
+-N/A
 
 
 ## Table of Contents 
@@ -18,40 +18,45 @@
 
 ## Installation
 
--Boop the snoot
+-N/A
 
 
 ## Usage
 
--Snoot be booped
+-N/A
 
--If you have any additional images or videos to include, create an 'assets/images OR assets/videos' folder in your directory,
+**Instructions for additional img/video content. If this doesn't apply, please delete this portion of your Usage section **
+
+-If you have any additional images or videos to include, create an 'assets' folder in your directory,
 and include your desired content in there.
 
--After doing creating your directory, insert the relative file path to your desired asset, and an alt text using the syntax below:
+-After creating your directory, insert the relative file path to your desired asset, and an alt text using the syntax below:
 
     
     ![alt text](assets/images/screenshot.png)
+
+
+
     
 
 ## Contribute
 
 -If you want to contribute to my project, click the link below!
 
--[Project Page](linked bro) 
+-[Project Page](N/A) 
 
 ## License
 
--GNU
+-MIT
 
 ## Tests
 
--Just boopen ze snoopen
+-N/A,
 
 
 ## Questions
 
--If you run into any issues or have any questions about my project, you can email me here: Booped@snoope.coop
+-If you run into any issues or have any questions about my project, you can email me here:  
 
 
 
