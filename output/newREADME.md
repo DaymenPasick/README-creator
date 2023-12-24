@@ -47,16 +47,20 @@ and include your desired content in there.
 
 ## License
 
+- (https://img.shields.io/badge/any_text-you_like-blue) 
+
 -MIT
 
 ## Tests
+
+ 
 
 -N/A,
 
 
 ## Questions
 
--If you run into any issues or have any questions about my project, you can email me here:  
+-If you run into any issues or have any questions about my project, you can email me here: N/A
 
 
 
