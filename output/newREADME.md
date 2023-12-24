@@ -33,6 +33,8 @@ and include your desired content in there.
 
 ## Contribute
 
+-If you want to contribute to my project, click the link below!
+
 -[Project Page](READMEcontribute) 
 
 ## License
@@ -40,6 +42,12 @@ and include your desired content in there.
 
 
 ## Tests
+
+
+## Questions
+
+-If you run into any issues or have any questions about my project, you can email me here: N/A
+
 
 
     

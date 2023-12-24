@@ -10,49 +10,62 @@ prompt([
         type: 'input',
         message: 'Please type your desired project title',
         name: 'title',
-        default: 'READMEtitle'
+        default: 'N/A'
     },
     {
         //for description
         type: 'input',
         message: 'Please enter a description for your project',
         name: 'description',
-        default: 'READMEdescription'
+        default: 'N/A'
     },
     {
         //for installation
         type: 'input',
         message: 'Please list any steps required to install your project',
         name: 'installation',
-        default: 'READMEinstallation'
+        default: 'N/A'
     },
     {
         //for usage
         type: 'input',
         message: 'Please note any instructions for using your product/app',
         name: 'usage',
-        default: 'READMEusage'
+        default: 'N/A'
     },
     {
         //for contributing
         type: 'input',
         message: 'Please provide a direct link to you project, so others people can contribute',
         name: 'contribute',
-        default: 'READMEcontribute'
+        default: 'N/A'
     },
     {
         //for tests
         type: 'input',
         message: 'testing input',
         name: 'tests',
-        default: 'READMEtests'
+        default: 'N/A,'
+    },
+    {
+        //for license
+        type: 'rawlist',
+        message: 'Please choose your desired project license',
+        name: 'license',
+        choices: [
+            'MIT',
+            'GNU',
+            'None' 
+        ]
+        
     },
     {
         //for questions
         type: 'input',
-        message: 'testing input',
+        message: 'Please enter an email that others may use if they have any questions about your project',
         name: 'questions',
-        default: 'READMEquestions'
+        default: 'N/A'
+        
     }
 
 
@@ -97,6 +110,7 @@ and include your desired content in there.
 ## Contribute
 
 -If you want to contribute to my project, click the link below!
+
 -[Project Page](${data.contribute}) 
 
 ## License
@@ -104,6 +118,12 @@ and include your desired content in there.
 
 
 ## Tests
+
+
+## Questions
+
+-If you run into any issues or have any questions about my project, you can email me here: ${data.questions}
+
 
 
     `
