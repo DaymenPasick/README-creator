@@ -47,9 +47,9 @@ and include your desired content in there.
 
 ## License
 
-- (https://img.shields.io/badge/License-GNU-blue) 
+- <img src="https://img.shields.io/badge/License-MIT-blue" /> 
 
--GNU
+-MIT
 
 ## Tests
 
