@@ -125,7 +125,6 @@ and include your desired content in there.
 
 - <img src="https://img.shields.io/badge/License-${data.license}-blue" /> 
 
--${data.license}
 
 ## Tests
 
