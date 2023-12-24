@@ -36,14 +36,14 @@ prompt([
     {
         //for contributing
         type: 'input',
-        message: 'Please provide a direct link to you project, so others people can contribute',
+        message: 'Please provide a direct link to you project, so others can contribute',
         name: 'contribute',
         default: 'N/A'
     },
     {
         //for tests
         type: 'input',
-        message: 'testing input',
+        message: 'If there were any testing steps/notes you wanted to include, please list them here',
         name: 'tests',
         default: 'N/A,'
     },
@@ -55,7 +55,7 @@ prompt([
         choices: [
             'MIT',
             'GNU',
-            'None' 
+            'N/A' 
         ]
         
     },
@@ -79,7 +79,9 @@ prompt([
 
 
 
-## ${data.description}
+## Description
+
+-${data.description}
 
 
 ## Table of Contents 
@@ -97,11 +99,12 @@ prompt([
 
 ## Usage
 
+-${data.usage}
 
 -If you have any additional images or videos to include, create an 'assets/images OR assets/videos' folder in your directory,
 and include your desired content in there.
 
--After this step, insert the relative file path and alt text using the syntax below:
+-After doing creating your directory, insert the relative file path to your desired asset, and an alt text using the syntax below:
 
     
     ![alt text](assets/images/screenshot.png)
@@ -115,9 +118,11 @@ and include your desired content in there.
 
 ## License
 
-
+-${data.license}
 
 ## Tests
+
+-${data.tests}
 
 
 ## Questions
