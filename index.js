@@ -1,6 +1,7 @@
 
 const fs = require('fs');
-const inquirer = require('inquirer')
+const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 const prompt = inquirer.createPromptModule()
 
@@ -74,82 +75,27 @@ prompt([
  .then((data) =>{
     console.log(data);
     
-    const readME = `
-# ${data.title}
-
-
-
-## Description
-
--${data.description}
-
-
-## Table of Contents 
-
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
--${data.installation}
-
-
-## Usage
-
--${data.usage}
-
-**Instructions for additional img/video content. If this doesn't apply, please delete this portion of your Usage section **
-
--If you have any additional images or videos to include, create an 'assets' folder in your directory,
-and include your desired content in there.
-
--After creating your directory, insert the relative file path to your desired asset, and an alt text using the syntax below:
-
-    
-    ![alt text](assets/images/screenshot.png)
-
-
-
-    
-
-## Contribute
-
--If you want to contribute to my project, click the link below!
-
--[Project Page](${data.contribute}) 
-
-## License
-
-- <img src="https://img.shields.io/badge/License-${data.license}-blue" /> 
-
-
-## Tests
-
- 
-
--${data.tests}
-
-
-## Questions
-
--If you run into any issues or have any questions about my project, you can email me here: ${data.questions}
-
-
-
-    `
-
+    function writeToFile(fileName, data){
+        const genMD = generateMarkdown(data);
+    }
 
     if (!fs.existsSync('./output')) {
         fs.mkdirSync('./output');
     }
+  
+  
+  
+  
+    fs.writeFileSync('./output/newREADME.md', genMD, err => {
+
+        if(err){
+            console.error(err);
+        }
 
 
+    });
+  
 
-
-    fs.writeFileSync('./output/newREADME.md', readME);
  });
 
 
