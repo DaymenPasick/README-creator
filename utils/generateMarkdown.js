@@ -3,19 +3,20 @@
 function renderLicenseBadge(license) {
 
 
-   if(license === 'MIT') {
-        return 'MIT'
-    } else if (license === 'GNU'){
-        return 'GNU'
-    } else {
-        return 'N/A'
-    }
+     
+ console.log("Hello")
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
- 
+ //    if(license === 'MIT') {
+//         return 'MIT'
+//     } else if (license === 'GNU'){
+//         return 'GNU'
+//     } else {
+//         return 'N/A'
+//     }
 }
 
 // TODO: Create a function that returns the license section of README

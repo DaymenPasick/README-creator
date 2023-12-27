@@ -56,6 +56,7 @@ prompt([
         type: 'rawlist',
         message: 'Please choose your desired project license',
         name: 'license',
+        default: 'N/A',
         choices: [
             'MIT',
             'GNU',
@@ -78,11 +79,15 @@ prompt([
  .then((data) =>{
     console.log(data);
     
+    
+   
+
+
+
   writeToFile("newREADME.md", data)
-  renderLicenseBadge(data.license)
+  
 //   renderLicenseLink(data.license)
 //   renderLicenseSection(data.license)
-  
 
  });
 
@@ -91,6 +96,7 @@ prompt([
  function writeToFile(fileName, data){
 
     const genMD = generateMarkdown(data);
+    renderLicenseBadge(data.license);
 
     if (!fs.existsSync('./output')) {
         fs.mkdirSync('./output');
