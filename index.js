@@ -75,28 +75,30 @@ prompt([
  .then((data) =>{
     console.log(data);
     
-    function writeToFile(fileName, data){
-        const genMD = generateMarkdown(data);
-    }
+  writeToFile("newREADME.md", data)
+
+ });
+
+
+ function writeToFile(fileName, data){
+
+    const genMD = generateMarkdown(data);
 
     if (!fs.existsSync('./output')) {
         fs.mkdirSync('./output');
     }
-  
-  
-  
-  
-    fs.writeFileSync('./output/newREADME.md', genMD, err => {
 
+    fs.writeFileSync('./output/newREADME.md', genMD, err => {
         if(err){
             console.error(err);
         }
-
-
     });
-  
 
- });
+}
+
+
+
+
 
 
 // TODO: Create a function to initialize app

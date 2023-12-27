@@ -49,11 +49,10 @@ and include your desired content in there.
 
 - <img src="https://img.shields.io/badge/License-MIT-blue" /> 
 
--MIT
 
 ## Tests
 
- 
+  
 
 -N/A,
 
