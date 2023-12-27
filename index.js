@@ -76,8 +76,17 @@ prompt([
     console.log(data);
     
   writeToFile("newREADME.md", data)
+  handleLicData('mit', data)
 
  });
+
+
+ function handleLicData(license, data) {
+
+    console.log(data.license)
+
+
+ }
 
 
  function writeToFile(fileName, data){
