@@ -2,6 +2,9 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
+const renderLicenseBadge = require('./utils/generateMarkdown');
+const renderLicenseLink = require('./utils/generateMarkdown');
+const renderLicenseSection = require('./utils/generateMarkdown');
 
 const prompt = inquirer.createPromptModule()
 
@@ -76,17 +79,13 @@ prompt([
     console.log(data);
     
   writeToFile("newREADME.md", data)
-  handleLicData('mit', data)
+  renderLicenseBadge(data.license)
+//   renderLicenseLink(data.license)
+//   renderLicenseSection(data.license)
+  
 
  });
 
-
- function handleLicData(license, data) {
-
-    console.log(data.license)
-
-
- }
 
 
  function writeToFile(fileName, data){
