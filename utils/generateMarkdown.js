@@ -1,13 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-   //    if(license === 'MIT') {
-//         return 'MIT'
-//     } else if (license === 'GNU'){
-//         return 'GNU'
-//     } else {
-//         return 'N/A'
-//     }  
+      if(license === 'MIT') {
+        return '<img src="https://img.shields.io/badge/License-${data.license}-blue" />'; 
+    } else if (license === 'GNU'){
+        return '<img src="https://img.shields.io/badge/License-${data.license}-blue" />'; 
+    } else {
+        return '';
+    }  
 
      
  console.log("Hello")
@@ -75,7 +75,7 @@ and include your desired content in there.
 
 ## License
 
-- <img src="https://img.shields.io/badge/License-${data.license}-blue" /> 
+- 
 
 
 ## Tests
