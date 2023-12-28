@@ -78,7 +78,7 @@ prompt([
   
   
   console.log(badge)
-  badgeHandle(data) 
+  
 
 
 
@@ -89,11 +89,6 @@ prompt([
 
  });
 
- function badgeHandle(data) {
-    const badge = renderLicenseBadge(data.license);
-    console.log(badge)
-
- }
 
  function writeToFile(fileName, data){
 
