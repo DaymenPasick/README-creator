@@ -2,9 +2,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
-const renderLicenseBadge = require('./utils/generateMarkdown');
-const renderLicenseLink = require('./utils/generateMarkdown');
-const renderLicenseSection = require('./utils/generateMarkdown');
 
 const prompt = inquirer.createPromptModule()
 
@@ -77,10 +74,11 @@ prompt([
 
 ])
  .then((data) =>{
-    console.log(data);
-    
-    
-   
+  console.log(data);
+  
+  
+  console.log(badge)
+  badgeHandle(data) 
 
 
 
@@ -91,12 +89,16 @@ prompt([
 
  });
 
+ function badgeHandle(data) {
+    const badge = renderLicenseBadge(data.license);
+    console.log(badge)
 
+ }
 
  function writeToFile(fileName, data){
 
     const genMD = generateMarkdown(data);
-    renderLicenseBadge(data.license);
+    
 
     if (!fs.existsSync('./output')) {
         fs.mkdirSync('./output');

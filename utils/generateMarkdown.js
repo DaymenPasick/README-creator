@@ -1,7 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-
+   //    if(license === 'MIT') {
+//         return 'MIT'
+//     } else if (license === 'GNU'){
+//         return 'GNU'
+//     } else {
+//         return 'N/A'
+//     }  
 
      
  console.log("Hello")
@@ -10,13 +16,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
- //    if(license === 'MIT') {
-//         return 'MIT'
-//     } else if (license === 'GNU'){
-//         return 'GNU'
-//     } else {
-//         return 'N/A'
-//     }
+
 }
 
 // TODO: Create a function that returns the license section of README
@@ -98,4 +98,4 @@ and include your desired content in there.
 
 }
 
-module.exports = generateMarkdown; renderLicenseBadge; renderLicenseLink; renderLicenseSection;
+module.exports = generateMarkdown; 
