@@ -1,7 +1,7 @@
 
 # N/A
 
-- <img src="https://img.shields.io/badge/License-MIT-blue" />
+- <img src="https://img.shields.io/badge/License-GNU-blue" />
 
 ## Description
 
@@ -47,12 +47,9 @@ and include your desired content in there.
 
 ## License
 
-- <img src="https://img.shields.io/badge/License-MIT-blue" />
+- <img src="https://img.shields.io/badge/License-GNU-blue" />
 
-- MIT
-
-
-- Click this link for more information about your license: (https://opensource.org/licenses/MIT)
+- Click this link for more information about your license: (https://opensource.org/licenses/GNU)
 
 
 ## Tests
