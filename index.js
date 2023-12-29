@@ -5,7 +5,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 const prompt = inquirer.createPromptModule()
 
-prompt([
+const questions = [
     {
         //for title
         type: 'input',
@@ -80,7 +80,7 @@ prompt([
 
 
 
-]);
+];
 //  .then((data) =>{
 //   console.log(data);
   
