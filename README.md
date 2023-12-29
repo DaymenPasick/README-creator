@@ -17,11 +17,13 @@
  (https://www.awesomescreenshot.com/video/23634808?key=70c3463b86cdce484714c2a66df101b9)
 
    
+- Terminal prompts to populate your newREADME
+    ![Sample README](./assets/imgs/terminalPromptsForREADME.png)   
    
    
-    ```md
+- Generated newREADME sample
     ![Sample README](./assets/imgs/sampleGeneratedREADME.png)
-    ```
+    
 
 
 
