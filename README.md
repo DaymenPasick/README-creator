@@ -20,7 +20,7 @@
    
    
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![Sample README](./assets/imgs/sampleGeneratedREADME.png)
     ```
 
 
