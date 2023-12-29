@@ -2,15 +2,12 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
       if(license === 'MIT') {
-        return '<img src="https://img.shields.io/badge/License-${data.license}-blue" />'; 
+        return '<img src="https://img.shields.io/badge/License-${license}-blue" />'; 
     } else if (license === 'GNU'){
-        return '<img src="https://img.shields.io/badge/License-${data.license}-blue" />'; 
+        return '<img src="https://img.shields.io/badge/License-${license}-blue" />'; 
     } else {
         return '';
     }  
-
-     
- console.log("Hello")
 }
 
 // TODO: Create a function that returns the license link
@@ -75,7 +72,7 @@ and include your desired content in there.
 
 ## License
 
-- 
+- ${renderLicenseBadge(data.license)}
 
 
 ## Tests

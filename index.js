@@ -76,11 +76,6 @@ prompt([
  .then((data) =>{
   console.log(data);
   
-  
-  console.log(badge)
-  
-
-
 
   writeToFile("newREADME.md", data)
   
