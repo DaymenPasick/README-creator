@@ -81,16 +81,6 @@ const questions = [
 
 
 ];
-//  .then((data) =>{
-//   console.log(data);
-  
-
-//   writeToFile("newREADME.md", data)
-  
-// //   renderLicenseLink(data.license)
-// //   renderLicenseSection(data.license)
-
-//  });
 
 
  function writeToFile(fileName, data){
