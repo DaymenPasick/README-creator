@@ -35,7 +35,7 @@ function generateMarkdown(data) {
 return `
 # ${data.title}
 
--${data.license}
+- ${renderLicenseBadge(data.license)}
 
 ## Description
 
@@ -83,7 +83,7 @@ and include your desired content in there.
 
 - ${renderLicenseBadge(data.license)}
 
-- 
+- ${data.license}
 
 - ${renderLicenseLink(data.license)}
 

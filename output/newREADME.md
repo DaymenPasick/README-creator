@@ -1,7 +1,7 @@
 
 # N/A
 
-
+- <img src="https://img.shields.io/badge/License-GNU-blue" />
 
 ## Description
 
@@ -47,11 +47,11 @@ and include your desired content in there.
 
 ## License
 
-- <img src="https://img.shields.io/badge/License-MIT-blue" />
+- <img src="https://img.shields.io/badge/License-GNU-blue" />
 
-- MIT
+- GNU
 
-- (https://opensource.org/licenses/MIT)
+- (https://opensource.org/licenses/GNU)
 
 
 ## Tests
