@@ -92,6 +92,8 @@ and include your desired content in there.
 
 -If you run into any issues or have any questions about my project, you can email me here: ${data.email}
 
+-If you want to checkout more of my projects, or contact me through GitHub, click here:(https://github.com/${data.gitusername}) 
+
 
 
     `;
