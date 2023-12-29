@@ -1,7 +1,7 @@
 
 # N/A
 
-- <img src="https://img.shields.io/badge/License-Apache License 2.0-blue" />
+- <img src="https://img.shields.io/badge/License-BSD-blue" />
 
 ## Description
 
@@ -47,9 +47,9 @@ and include your desired content in there.
 
 ## License
 
-- <img src="https://img.shields.io/badge/License-Apache License 2.0-blue" />
+- <img src="https://img.shields.io/badge/License-BSD-blue" />
 
-- Click this link for more information about your license: (https://opensource.org/licenses/Apache License 2.0)
+- Click this link for more information about your license: (https://opensource.org/licenses/BSD)
 
 
 ## Tests
