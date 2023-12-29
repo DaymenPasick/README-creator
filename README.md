@@ -3,27 +3,10 @@ A quick way to generate a quality README by answering a few questions
 
 
 
-https://www.awesomescreenshot.com/video/23634808?key=70c3463b86cdce484714c2a66df101b9
-
-# <Your-Project-Title>
-
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This app allows the user to dynamically generate their own professional README by just entering a few questions!
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
 
 ## Installation
 
@@ -31,9 +14,8 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+- Click on the following link to watch a "How To" video guide!:
+ (https://www.awesomescreenshot.com/video/23634808?key=70c3463b86cdce484714c2a66df101b9)
 
     ```md
     ![alt text](assets/images/screenshot.png)
