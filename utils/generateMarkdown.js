@@ -14,9 +14,9 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     if(license === 'MIT') {
-        return `<img src="https://img.shields.io/badge/License-${license}-blue" />`; 
+        return `(https://opensource.org/licenses/${license})`; 
     } else if (license === 'GNU'){
-        return `<img src="https://img.shields.io/badge/License-${license}-blue" />`; 
+        return `(https://opensource.org/licenses/${license})`; 
     } else {
         return '';
     }  
@@ -82,6 +82,8 @@ and include your desired content in there.
 - ${renderLicenseBadge(data.license)}
 
 - ${data.license}
+
+- ${renderLicenseLink(data.license)}
 
 
 ## Tests
