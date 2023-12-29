@@ -114,8 +114,9 @@ const questions = [
 // TODO: Create a function to initialize app
 const init = () => {
     prompt(questions)
-     .then((data) => {
-        writeToFile("newREADME.md", generateMarkdown(data))
+     .then(data => {
+        console.log(data)
+        writeToFile("newREADME.md", data)
      })
 
 }
