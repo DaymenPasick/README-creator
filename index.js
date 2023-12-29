@@ -56,7 +56,7 @@ prompt([
         default: 'N/A',
         choices: [
             'MIT',
-            'Apache License 2.0',
+            'BSD',
             'N/A' 
         ]
         

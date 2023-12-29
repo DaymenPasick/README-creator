@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
       if(license === 'MIT') {
         return `<img src="https://img.shields.io/badge/License-${license}-blue" />`; 
-    } else if (license === 'Apache License 2.0'){
+    } else if (license === 'BSD'){
         return `<img src="https://img.shields.io/badge/License-${license}-blue" />`; 
     } else {
         return '';
@@ -15,7 +15,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
     if(license === 'MIT') {
         return "Click this link for more information about your license: " + `(https://opensource.org/licenses/${license})`; 
-    } else if (license === 'Apache License 2.0'){
+    } else if (license === 'BSD'){
         return "Click this link for more information about your license: " + `(https://opensource.org/licenses/${license})`; 
     } else {
         return '';
