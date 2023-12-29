@@ -81,17 +81,21 @@ const questions = [
 
 
 ];
-
-
+ 
+ //function willtake in prompt answers(data), and use them to create a new README named 'fileName'
  function writeToFile(fileName, data){
 
+    //set imported generateMarkdown() from generateMarkdown.js to a const and passed it
+    //our prompt answer data
     const genMD = generateMarkdown(data);
     
-
+    //will make a new directory named "output", if one doesn't already exist
     if (!fs.existsSync('./output')) {
         fs.mkdirSync('./output');
     }
 
+    //will show take in genMD(data) function and write it as a file named 'newREADME.md' in the output directory
+    //or throw an error
     fs.writeFileSync('./output/newREADME.md', genMD, err => {
         if(err){
             console.error(err);
