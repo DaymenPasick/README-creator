@@ -1,11 +1,11 @@
 
-# N/A
+# undefined
 
-- <img src="https://img.shields.io/badge/License-BSD-blue" />
+- 
 
 ## Description
 
--N/A
+-undefined
 
 
 ## Table of Contents 
@@ -18,12 +18,12 @@
 
 ## Installation
 
--N/A
+-undefined
 
 
 ## Usage
 
--N/A
+-undefined
 
 **Instructions for additional img/video content. If this doesn't apply, please delete this portion of your Usage section **
 
@@ -43,27 +43,27 @@ and include your desired content in there.
 
 -If you want to contribute to my project, click the link below!
 
--[Project Page](N/A) 
+-[Project Page](undefined) 
 
 ## License
 
-- <img src="https://img.shields.io/badge/License-BSD-blue" />
+- 
 
-- Click this link for more information about your license: (https://opensource.org/licenses/BSD)
+- 
 
 
 ## Tests
 
   
 
--N/A,
+-undefined
 
 
 ## Questions
 
--If you run into any issues or have any questions about my project, you can email me here: N/A
+-If you run into any issues or have any questions about my project, you can email me here: undefined
 
--If you want to checkout more of my projects, or contact me through GitHub, click here:(https://github.com/N/A) 
+-If you want to checkout more of my projects, or contact me through GitHub, click here:(https://github.com/undefined) 
 
 
 

@@ -80,17 +80,17 @@ prompt([
 
 
 
-])
- .then((data) =>{
-  console.log(data);
+]);
+//  .then((data) =>{
+//   console.log(data);
   
 
-  writeToFile("newREADME.md", data)
+//   writeToFile("newREADME.md", data)
   
-//   renderLicenseLink(data.license)
-//   renderLicenseSection(data.license)
+// //   renderLicenseLink(data.license)
+// //   renderLicenseSection(data.license)
 
- });
+//  });
 
 
  function writeToFile(fileName, data){
@@ -111,15 +111,11 @@ prompt([
 }
 
 
-
-
-
-
 // TODO: Create a function to initialize app
-function init() {
-    prompt([])
+const init = () => {
+    prompt(questions)
      .then((data) => {
-        writeToFile()
+        writeToFile("newREADME.md", generateMarkdown(data))
      })
 
 }
