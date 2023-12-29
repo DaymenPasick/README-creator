@@ -1,11 +1,11 @@
 
-# N/A
+# EasterBunies
 
-- <img src="https://img.shields.io/badge/License-BSD-blue" />
+- <img src="https://img.shields.io/badge/License-MIT-blue" />
 
 ## Description
 
--N/A
+-An inclusive easter project
 
 
 ## Table of Contents 
@@ -18,12 +18,12 @@
 
 ## Installation
 
--N/A
+-Find the egg!
 
 
 ## Usage
 
--N/A
+-Eat said egg!
 
 **Instructions for additional img/video content. If this doesn't apply, please delete this portion of your Usage section **
 
@@ -43,25 +43,25 @@ and include your desired content in there.
 
 -If you want to contribute to my project, click the link below!
 
--[Project Page](N/A) 
+-[Project Page](link here) 
 
 ## License
 
-- <img src="https://img.shields.io/badge/License-BSD-blue" />
+- <img src="https://img.shields.io/badge/License-MIT-blue" />
 
-- Click this link for more information about your license: (https://opensource.org/licenses/BSD)
+- Click this link for more information about your license: (https://opensource.org/licenses/MIT)
 
 
 ## Tests
 
   
 
--N/A,
+-Find Egg. Push kids in the way. Eat said eggs!
 
 
 ## Questions
 
--If you run into any issues or have any questions about my project, you can email me here: N/A
+-If you run into any issues or have any questions about my project, you can email me here: email@eggs.bunny
 
 
 
