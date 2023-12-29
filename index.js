@@ -116,7 +116,13 @@ prompt([
 
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    prompt([])
+     .then((data) => {
+        writeToFile()
+     })
+
+}
 
 // Function call to initialize app
 init();

@@ -1,7 +1,7 @@
 
 # N/A
 
-- 
+- <img src="https://img.shields.io/badge/License-BSD-blue" />
 
 ## Description
 
@@ -47,9 +47,9 @@ and include your desired content in there.
 
 ## License
 
-- 
+- <img src="https://img.shields.io/badge/License-BSD-blue" />
 
-- 
+- Click this link for more information about your license: (https://opensource.org/licenses/BSD)
 
 
 ## Tests
@@ -63,7 +63,7 @@ and include your desired content in there.
 
 -If you run into any issues or have any questions about my project, you can email me here: N/A
 
--If you want to checkout more of my projects, or contact me through GitHub, click here:(https://github.com/DaymenPasick) 
+-If you want to checkout more of my projects, or contact me through GitHub, click here:(https://github.com/N/A) 
 
 
 
