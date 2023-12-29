@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//This button will take in user's license choice and use it to either generate a badge, or return an empty string
 function renderLicenseBadge(license) {
       if(license === 'MIT') {
         return `<img src="https://img.shields.io/badge/License-${license}-blue" />`; 
@@ -10,8 +9,7 @@ function renderLicenseBadge(license) {
     }  
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//This button will take in user's license choice and use it to either generate information on that license, or return an empty string
 function renderLicenseLink(license) {
     if(license === 'MIT') {
         return "Click this link for more information about your license: " + `(https://opensource.org/licenses/${license})`; 
@@ -24,7 +22,8 @@ function renderLicenseLink(license) {
 }
 
 
-// TODO: Create a function to generate markdown for README
+//this function contains the template for our newREADME, and will user the user's prompt answers(data)
+//to fill in the designated spaces
 function generateMarkdown(data) {
 
 return `
@@ -84,7 +83,6 @@ and include your desired content in there.
 ## Tests
 
   
-
 -${data.tests}
 
 
@@ -103,4 +101,5 @@ and include your desired content in there.
 
 }
 
+//this will allow us to user content written within generateMarkdown.js outside of the file
 module.exports = generateMarkdown; 

@@ -1,11 +1,11 @@
 
-# adsa
+# N/A
 
 - <img src="https://img.shields.io/badge/License-MIT-blue" />
 
 ## Description
 
--ada
+-N/A
 
 
 ## Table of Contents 
@@ -18,12 +18,12 @@
 
 ## Installation
 
--asdsaas
+-N/A
 
 
 ## Usage
 
--asdasa
+-N/A
 
 **Instructions for additional img/video content. If this doesn't apply, please delete this portion of your Usage section **
 
@@ -43,7 +43,7 @@ and include your desired content in there.
 
 -If you want to contribute to my project, click the link below!
 
--[Project Page](asdas) 
+-[Project Page](N/A) 
 
 ## License
 
@@ -56,14 +56,14 @@ and include your desired content in there.
 
   
 
--asda
+-N/A,
 
 
 ## Questions
 
--If you run into any issues or have any questions about my project, you can email me here: ada
+-If you run into any issues or have any questions about my project, you can email me here: N/A
 
--If you want to checkout more of my projects, or contact me through GitHub, click here:(https://github.com/adsaas) 
+-If you want to checkout more of my projects, or contact me through GitHub, click here:(https://github.com/adsa) 
 
 
 
