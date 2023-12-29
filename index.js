@@ -1,8 +1,11 @@
 
+//this grouping of code is required to utilize file dependencies
+//as well as the code in the generateMarkdown.ks file
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
+//utalizes inquirer dependency's createPromptModule function
 const prompt = inquirer.createPromptModule()
 
 const questions = [
@@ -77,11 +80,9 @@ const questions = [
         default: 'N/A'
         
     }
-
-
-
 ];
  
+
  //function willtake in prompt answers(data), and use them to create a new README named 'fileName'
  function writeToFile(fileName, data){
 
@@ -105,7 +106,7 @@ const questions = [
 }
 
 
-// TODO: Create a function to initialize app
+// this function will initialize the app upon call
 const init = () => {
     prompt(questions)
      .then(data => {
@@ -115,5 +116,4 @@ const init = () => {
 
 }
 
-// Function call to initialize app
 init();
