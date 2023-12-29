@@ -65,7 +65,15 @@ prompt([
         //for questions
         type: 'input',
         message: 'Please enter an email that others may use if they have any questions about your project',
-        name: 'questions',
+        name: 'email',
+        default: 'N/A'
+        
+    },
+    {
+        //also for questions
+        type: 'input',
+        message: 'Please enter your GitHub username so others can see your projects',
+        name: 'gitusername',
         default: 'N/A'
         
     }

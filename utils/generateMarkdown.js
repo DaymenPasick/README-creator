@@ -90,7 +90,7 @@ and include your desired content in there.
 
 ## Questions
 
--If you run into any issues or have any questions about my project, you can email me here: ${data.questions}
+-If you run into any issues or have any questions about my project, you can email me here: ${data.email}
 
 
 

@@ -1,11 +1,11 @@
 
-# EasterBunies
+# N/A
 
-- <img src="https://img.shields.io/badge/License-MIT-blue" />
+- 
 
 ## Description
 
--An inclusive easter project
+-N/A
 
 
 ## Table of Contents 
@@ -18,12 +18,12 @@
 
 ## Installation
 
--Find the egg!
+-N/A
 
 
 ## Usage
 
--Eat said egg!
+-N/A
 
 **Instructions for additional img/video content. If this doesn't apply, please delete this portion of your Usage section **
 
@@ -43,25 +43,25 @@ and include your desired content in there.
 
 -If you want to contribute to my project, click the link below!
 
--[Project Page](link here) 
+-[Project Page](N/A) 
 
 ## License
 
-- <img src="https://img.shields.io/badge/License-MIT-blue" />
+- 
 
-- Click this link for more information about your license: (https://opensource.org/licenses/MIT)
+- 
 
 
 ## Tests
 
   
 
--Find Egg. Push kids in the way. Eat said eggs!
+-N/A,
 
 
 ## Questions
 
--If you run into any issues or have any questions about my project, you can email me here: email@eggs.bunny
+-If you run into any issues or have any questions about my project, you can email me here: N/A
 
 
 
